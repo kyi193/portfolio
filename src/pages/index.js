@@ -51,8 +51,8 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Poker is a game of numbers, probability, and pscyhology. I have created these poker utility apps to help players
-            like myself to gain an edge, whether its on or off the felt.
+            Poker is a game of numbers, probability, and psychology. I have created these poker utility apps to help players
+            like myself gain an edge whether its on or off the felt.
           </p>
 
           <div className="row">
@@ -91,7 +91,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h2>Kevin's Thought Machine</h2>
-                  <h5>Ask me any yes or no question</h5>
+                  <h5>Ask me any yes or no question.</h5>
                 </header>
               </article>
             </div>
