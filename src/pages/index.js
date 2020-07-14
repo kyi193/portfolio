@@ -81,6 +81,8 @@ const IndexPage = () => (
                 <header>
                   <h2><a href="https://github.com/kyi193/Chip-Up">Chip Up</a></h2>
                   <h5>Generates shoving and reshoving hand ranges for poker tournaments.</h5>
+                  <a href="https://kyi193.github.io/Chip-Up/" target="_blank">Try it out!</a>
+                  <p>(Click the orange rocket ship)</p>
                 </header>
               </article>
               <article className="item">
@@ -90,6 +92,8 @@ const IndexPage = () => (
                 <header>
                   <h2><a href="https://github.com/kyi193/Chip-Up">Kevin's Thought Machine</a></h2>
                   <h5>Ask me any yes or no question.</h5>
+                  <a href="https://kyi193.github.io/Chip-Up/" target="_blank">Try it out!</a>
+                  <p>(Click the magic eight ball)</p>
                 </header>
               </article>
             </div>
@@ -101,6 +105,8 @@ const IndexPage = () => (
                 <header>
                   <h2><a href="https://github.com/kyi193/Chip-Up">Equitool</a></h2>
                   <h5>Calculate the odds of your hand in any given situation.</h5>
+                  <a href="https://kyi193.github.io/Chip-Up/" target="_blank">Try it out!</a>
+                  <p>(Click the blue poker cards)</p>
                 </header>
               </article>
               <article className="item">
