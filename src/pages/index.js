@@ -17,6 +17,7 @@ const sections = [
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  { id: 'blog', name: 'Blog', icon: 'fa-pencil' },
 ];
 
 const IndexPage = () => (
@@ -62,16 +63,13 @@ const IndexPage = () => (
                   <img src={pokerBank} alt="" />
                 </a>
                 <header>
-                  <h2>Poker bank</h2>
+                  <h2><a href="https://github.com/kyi193/Poker-Bank">Poker bank</a></h2>
                   <h5>A poker session app that lets you save your session results and view data and graph analytics</h5>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
-                </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Project 5</h3>
                 </header>
               </article>
             </div>
@@ -81,7 +79,7 @@ const IndexPage = () => (
                   <img src={chipUp} alt="" width="10" height="325" />
                 </a>
                 <header>
-                  <h2>Chip Up</h2>
+                  <h2><a href="https://github.com/kyi193/Chip-Up">Chip Up</a></h2>
                   <h5>Generates shoving and reshoving hand ranges for poker tournaments.</h5>
                 </header>
               </article>
@@ -90,7 +88,7 @@ const IndexPage = () => (
                   <img src={magicEightBall} alt="" />
                 </a>
                 <header>
-                  <h2>Kevin's Thought Machine</h2>
+                  <h2><a href="https://github.com/kyi193/Chip-Up">Kevin's Thought Machine</a></h2>
                   <h5>Ask me any yes or no question.</h5>
                 </header>
               </article>
@@ -101,7 +99,7 @@ const IndexPage = () => (
                   <img src={equitool} alt="" />
                 </a>
                 <header>
-                  <h2>Equitool</h2>
+                  <h2><a href="https://github.com/kyi193/Chip-Up">Equitool</a></h2>
                   <h5>Calculate the odds of your hand in any given situation.</h5>
                 </header>
               </article>
@@ -109,7 +107,7 @@ const IndexPage = () => (
                 <a href="/#" className="image fit">
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>Project 6</h3>
                 </header>
               </article>
             </div>
@@ -123,18 +121,8 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a>
-
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+
           </p>
         </div>
       </section>
@@ -144,31 +132,20 @@ const IndexPage = () => (
           <header>
             <h2>Contact</h2>
           </header>
+          <ul>
+            <p>Email: kevin.yi93@gmail.com</p>
+            <p>Phone: 301-250-6091</p>
+            <p>Github: <a href="https://github.com/kyi193">https://github.com/kyi193</a></p>
+          </ul>
+        </div>
+      </section>
+      <section id="blog" className="five">
+        <div className="container">
+          <header>
+            <h2>Personal blog</h2>
+          </header>
 
-          <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
-          </p>
-
-          <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
-          </form>
+          <p><a href="https://kyi193.github.io/">Click here</a> to take a look into how I developed my apps</p>
         </div>
       </section>
     </div>

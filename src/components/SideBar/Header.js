@@ -6,7 +6,7 @@ export default function Footer({ title, heading, avatar }) {
     <div id="logo">
       <Link to="/">
         <span className="image avatar48">
-          <img height="128px" src={avatar} alt="" />
+          <img style={{ borderRadius: 20 }} height="128px" src={avatar} alt="" />
         </span>
 
         <h1 id="title">{title}</h1>
