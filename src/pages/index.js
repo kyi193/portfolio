@@ -10,7 +10,7 @@ import chipUp from '../assets/images/ChipUp.png';
 import equitool from '../assets/images/equitool.png';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
-import magicEightBall from '../assets/images/magicEightball.png'
+import magicEightBall from '../assets/images/magicEightBall.png'
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
