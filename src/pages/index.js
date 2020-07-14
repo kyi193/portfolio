@@ -83,7 +83,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h2>Chip Up</h2>
-                  <h5>A poker utility app that generates shoving and reshoving hand ranges specifically for tournament poker</h5>
+                  <h5>A poker utility app that generates shoving and reshoving hand ranges specifically for tournament poker.</h5>
                 </header>
               </article>
               <article className="item">
@@ -102,7 +102,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h2>Equitool</h2>
-                  <h5>Calculate the odds of your hand in any given situation</h5>
+                  <h5>Calculate the odds of your hand in any given situation.</h5>
                 </header>
               </article>
               <article className="item">
