@@ -7,11 +7,10 @@ import SideBar from '../components/SideBar';
 import pokerBank from '../assets/images/pokerBank.png';
 import pic3 from '../assets/images/pic03.jpg';
 import chipUp from '../assets/images/ChipUp.png';
-import pic5 from '../assets/images/pic05.jpg';
 import equitool from '../assets/images/equitool.png';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
-import magicEightBall from '../assets/images/magic8ball.png'
+import magicEightBall from '../assets/images/magicEightball.png'
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -92,6 +91,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h2>Kevin's Thought Machine</h2>
+                  <h5>Ask me any yes or no question</h5>
                 </header>
               </article>
             </div>
