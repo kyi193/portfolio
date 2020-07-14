@@ -78,11 +78,11 @@ const IndexPage = () => (
             <div className="col-3 col-8-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={chipUp} alt="" width="10" height="400" />
+                  <img src={chipUp} alt="" width="10" height="325" />
                 </a>
                 <header>
                   <h2>Chip Up</h2>
-                  <h5>A poker utility app that generates shoving and reshoving hand ranges specifically for tournament poker.</h5>
+                  <h5>Generates shoving and reshoving hand ranges for poker tournaments.</h5>
                 </header>
               </article>
               <article className="item">
