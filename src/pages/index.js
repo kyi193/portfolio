@@ -4,14 +4,14 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
+import pokerBank from '../assets/images/pokerBank.png';
 import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
+import chipUp from '../assets/images/ChipUp.png';
 import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import equitool from '../assets/images/equitool.png';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
+import magicEightBall from '../assets/images/magic8ball.png'
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -32,13 +32,13 @@ const IndexPage = () => (
               Welcome! My name is <strong>Kevin</strong>
               <br />
             </h2>
-            <p>I am a poker pro turned into a full time app developer</p>
+            <p>I am a poker pro turned into a full time app developer.</p>
           </header>
 
           <footer>
             <Scroll type="id" element={'portfolio'}>
               <a href="#portfolio" className="button">
-                Show me
+                Check it out!
               </a>
             </Scroll>
           </footer>
@@ -52,20 +52,19 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Poker is a game of numbers, probability, and pscyhology. I have created these poker utility apps to help players
+            like myself to gain an edge, whether its on or off the felt.
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
+                  <img src={pokerBank} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h2>Poker bank</h2>
+                  <h5>A poker session app that lets you save your session results and view data and graph analytics</h5>
                 </header>
               </article>
               <article className="item">
@@ -77,36 +76,37 @@ const IndexPage = () => (
                 </header>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            <div className="col-3 col-8-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
+                  <img src={chipUp} alt="" width="10" height="400" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h2>Chip Up</h2>
+                  <h5>A poker utility app that generates shoving and reshoving hand ranges specifically for tournament poker</h5>
                 </header>
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
+                  <img src={magicEightBall} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h2>Kevin's Thought Machine</h2>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
+                  <img src={equitool} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h2>Equitool</h2>
+                  <h5>Calculate the odds of your hand in any given situation</h5>
                 </header>
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
                 </a>
                 <header>
                   <h3>Orci Convallis</h3>
